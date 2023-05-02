@@ -737,17 +737,17 @@ body {
   color: var(--brand-color-black);
 }
 
-.modals__form-label .modals__form-icon {
+.modal__form-label .modal__form-icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modals__form-label:hover .modals__form-icon {
+.modal__form-label:hover .modal__form-icon {
   fill: var(--brand-color-blue);
 }
 
-.modals__form-label {
+.modal__form-label {
   display: block;
   position: relative;
   font-size: 12px;
@@ -755,13 +755,13 @@ body {
   color: var(--brand-color-grey);
 }
 
-.modals__form-icon {
+.modal__form-icon {
   position: absolute;
   top: 27px;
   left: 13px;
 }
 
-.modals__form-input {
+.modal__form-input {
   display: block;
   width: 100%;
   height: 40px;
@@ -774,14 +774,14 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modals__form-input:hover,
-.modals__form-input:active,
-.modals__form-input:focus {
+.modal__form-input:hover,
+.modal__form-input:active,
+.modal__form-input:focus {
   border: 1px solid var(--brand-color-blue);
   outline: none;
 }
 
-.modals__form-textarea {
+.modal__form-textarea {
   height: 120px;
   resize: none;
   padding: 12px 16px;
@@ -789,7 +789,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modals__form-btn {
+.modal__form-btn {
   padding: 10px 76px;
   margin: 30px 120px;
   background-color: var(--brand-color-blue);
@@ -803,7 +803,7 @@ body {
   cursor: pointer;
 }
 
-.modals__form-check {
+.modal__form-check {
   display: block;
   margin-top: 20px;
   text-align: center;
